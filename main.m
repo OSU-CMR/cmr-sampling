@@ -18,7 +18,7 @@ fg = "pr4d";
 
 %% ================
 % VISTA Parameters 
-param_vista.PE    = 160; % Size of of phase encoding (PE) grid
+param_vista.PE    = 160; % Size of phase encoding (PE) grid
 param_vista.FR    = 64; % Number of frames
 param_vista.n     = 12;  % Number of samples (readouts) per frame
 param_vista.M     = param_vista.FR*param_vista.n; % Total number of samples
@@ -42,8 +42,8 @@ param_vista.fl   = []; % Start checking fully sampledness of time-averge at fl^t
 
 %% ================
 % GRO Parameters
-param_gro.PE   = 160;  % Size of of phase encoding (PE) grid
-param_gro.FR   = 64;   % Numbe of frames
+param_gro.PE   = 160;  % Size of phase encoding (PE) grid
+param_gro.FR   = 64;   % Number of frames
 param_gro.n    = 12;   % Number of samples (readouts) per frame
 param_gro.M    = param_gro.FR*param_gro.n; % Total number of samples
 param_gro.E    = 1;    % Number of encoding, E=1 for cine, E=2 for flow (phase-contrast MRI)
@@ -55,7 +55,7 @@ param_gro.dsp  = 1;    % Display figures: 0 no, 1 yes
 
 %% ================
 % CAVA Parameters
-param_cava.PE   = 120;  % Size of of phase encoding (PE) grid
+param_cava.PE   = 120;  % Size of phase encoding (PE) grid
 param_cava.FR   = 48;  % Nominal number of frames (for display only)
 param_cava.n    = 6;   % Nominal number of samples per frame per encoding (for display one)
 param_cava.M    = param_cava.FR*param_cava.n; % Total number of samples
@@ -67,7 +67,7 @@ param_cava.dsp  = 1;   % Display figures: 0 no, 1 yes
 
 %% ================
 % OPRA Parameters
-param_opra.PE   = [96, 60]; % Size of of phase encoding ky-kz grid (larger number first)
+param_opra.PE   = [96, 60]; % Size of phase encoding ky-kz grid (larger number first)
 param_opra.FR   = 80;  % Number of frames (for display only)
 param_opra.n    = 30;  % Nominal number of samples per frame (for display one)
 param_opra.L    = 10;  % Number of samples in each "L" leaflet (keep it even)
@@ -82,7 +82,7 @@ param_opra.dsp  = 1;   % Display figures: 0 no, 1 yes
 
 %% ================
 % PR4D Parameters
-param_pr4d.PE   = [96, 60]; % Size of the phase encoding ky-kz grid (larger number first)
+param_pr4d.PE   = [96, 60]; % Size of phase encoding ky-kz grid (larger number first)
 param_pr4d.FR   = 80; % Nominal number of frames (for display only)
 param_pr4d.n    = 30; % Nominal number of samples per frame per encoding (for display one)
 param_pr4d.M    = param_pr4d.FR*param_pr4d.n; % Total number of samples
